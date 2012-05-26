@@ -1,0 +1,64 @@
+body {
+    background-position: left 30px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-color: #ACDED6;
+
+ }
+.card { position: absolute; left:186px; top:26px; padding: 400px;
+height: 150px; width: 150px; border-radius: 0 px; border: 0px solid tan;
+-webkit-backface-visibility: hidden;
+-webkit-transition: -webkit-transform 1s;
+}
+
+.front {background-color: #FFFFFF; filter:alpha(opacity=75);-moz-opacity:0.5;opacity: 0.75;}
+
+.back {background-color: #FFFFFF; filter:alpha(opacity=75);-moz-opacity:0.5;opacity: 0.75;-webkit-transform: rotateY(180deg); }
+
+
+.affichimag {
+background:url(00.png);
+border:none;
+width: 10px; /* largeur à spécifier */
+height: 10px; /* longueur à spécifier */
+top: 140 px; 
+left: 400 px;
+cursor: hand;
+}
+
+
+
+ul
+{
+list-style-type:none;
+margin:-8;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:right;
+}
+a.one:link,a.one:visited /* a:link = unvisited link ; a:visited = visited link */
+{
+display:block;
+width:325px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#404040;
+text-align:center;
+padding:6px;
+text-decoration:none;
+
+text-transform:uppercase;
+}
+a.one:hover,a.one:active /* a:hover = mouse over link ;a:active = selected link */
+{
+background-color:#202020;
+}
+
+
+.scrollbox0e510f8 { overflow: scroll; padding:3px; width: 650px; height:400px; border-style: solid; border-width: 1px; top: 10 px; left: 20 px;
+border-color:black; background-color:transparent; text-align: left; letter-spacing: 1px; word-spacing: 2px; font-size: 12px;
+color:black; font-family: arial; }

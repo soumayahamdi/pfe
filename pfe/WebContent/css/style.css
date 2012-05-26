@@ -1,0 +1,101 @@
+* {
+   margin: 0;
+   padding: 0;
+} 
+
+body {
+   background-color: white;
+   top:-20px;
+   font-family: 'Brawler', arial, serif;
+}
+
+#container {
+   padding: 20px;
+   height: 80%;
+   position: relative;
+}
+
+h1 {
+   color: #FFFFFF;
+   text-shadow: 2px 2px 1px #333333;
+   margin: 5px;
+}
+
+#map {
+   background-color: black;
+   height: 100%;
+   position: relative;
+}
+
+#controls {
+   height: 70px;
+   text-align: center;
+}
+
+#get_tweets {
+   margin-top: 10px;
+   display: inline-block;
+   background-color: #ACDED6; /*Lime Green*/
+   padding: 10px;
+   font-size: 10px;
+   border-radius: 10px;
+   position: relative;
+   cursor: pointer;
+}
+
+#get_tweets:hover {
+   box-shadow: 2px 2px 1px black; 
+}
+
+#holder {
+   min-height: 100px;
+}
+
+#tweet_stream li {
+   height: 80px;
+   border: 1px solid black;
+   border-radius: 10px;
+   overflow: hidden;
+   display: none;
+   margin-bottom: 5px;
+}
+
+#tweet_stream li a {
+   color: black;
+}
+
+#tweet_stream {
+   margin-top: 10px;
+   list-style-type: none;
+}
+
+#picture {
+   float: left;
+   height: 100px;
+   margin-right: 5px;
+   background-color: #ACDED6; /* Lime Green */
+   width: 150px;
+   color: black;
+   text-align: center;
+}
+
+#picture img {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 10px;
+}
+
+#tweet {
+   height: 100px;
+   background-color: #EEEEEE; /* Off White */
+   padding: 10px;
+}
+
+#loc {
+   background-color: #40B3DF; /* Light Blue */
+   height: 25px;
+}
+
+#from {
+   display: block;
+}
